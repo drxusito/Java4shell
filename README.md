@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Java4Shell (CVE-2026-114938) detection lab
 
 Lab-only images for studying how well *static image metadata* predicts exposure to the
