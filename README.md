@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Java4Shell (CVE-2026-114938) detection lab
 
 Lab-only images for studying how well *static image metadata* predicts exposure to the
@@ -104,3 +105,7 @@ On a host without AVX-512 VBMI/BW, the runtime verdict for non-mitigated vulnera
 - `scripts/run-matrix.sh` – side-by-side comparison
 - `sim/` – Docker-free simulation: `fetch-jdks.sh`, `run-sim.sh`, `precedence-demo.sh`, `docker-shim.sh`, `scenarios.tsv`
 - `testdata/*.json` – synthetic `docker image inspect` outputs for offline tests
+=======
+# Java4shell
+This GitHub repository has been created and is maintained solely for educational and learning purposes. The content, code, and examples provided are intended to help users understand and explore the concepts demonstrated.
+>>>>>>> acc829c990c26e7fbcd7119dea4525665f0cc26d
