@@ -1,0 +1,8 @@
+vulnerable	jdk-vuln	launch	X=1
+patched	jdk-fixed	launch	X=1
+mitigated-env	jdk-vuln	launch	JAVA_TOOL_OPTIONS=-XX:-UseBASE64Intrinsics
+mitigated-avx2	jdk-vuln	launch	JAVA_TOOL_OPTIONS=-XX:UseAVX=2
+mitigated-cmd	jdk-vuln	launch	X=1	-XX:-UseBASE64Intrinsics
+hidden-mitigation	jdk-vuln	wrapper	X=1
+decoy-javaopts	jdk-vuln	launch	JAVA_OPTS=-XX:-UseBASE64Intrinsics
+mitigated-disableintrinsic	jdk-vuln	launch	_JAVA_OPTIONS=-XX:+UnlockDiagnosticVMOptions -XX:DisableIntrinsic=_base64_encodeBlock,_base64_decodeBlock

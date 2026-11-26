@@ -1,0 +1,19 @@
+[
+ {
+  "Architecture": "amd64",
+  "Os": "linux",
+  "Config": {
+   "Env": [
+    "PATH=/opt/java/openjdk/bin:/usr/bin",
+    "JAVA_HOME=/opt/java/openjdk",
+    "JAVA_VERSION=jdk-21.0.13+9"
+   ],
+   "Entrypoint": [
+    "/opt/lab/launch.sh"
+   ],
+   "Cmd": [
+    "-XX:-UseBASE64Intrinsics"
+   ]
+  }
+ }
+]
